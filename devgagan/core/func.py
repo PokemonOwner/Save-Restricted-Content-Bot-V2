@@ -20,7 +20,7 @@ async def chk_user(message, user_id):
     if user_id in user or user_id in OWNER_ID:
         return 0
     else:
-        await message.reply_text("To Get Free Trial Premium Message @HarryPotterSupporBot...")
+        await message.reply_text("To Get Free Trial Premium Message @HarryPotterSupportBot...")
         return 1
 
 
